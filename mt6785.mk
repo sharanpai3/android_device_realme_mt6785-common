@@ -96,6 +96,11 @@ PRODUCT_PACKAGES += \
     libsuspend \
     android.hardware.health@2.0
 
+# KPOC
+PRODUCT_PACKAGES += \
+    libsuspend \
+    android.hardware.health@2.0
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.realme_mt6785
