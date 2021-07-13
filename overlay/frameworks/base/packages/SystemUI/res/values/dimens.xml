@@ -19,4 +19,8 @@
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">10dp</dimen>
+
+    <!-- Descendant -->
+    <dimen name="qqs_padding_top">34dp</dimen>
+
 </resources>
