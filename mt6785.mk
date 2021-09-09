@@ -120,7 +120,8 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt
 PRODUCT_PACKAGES += \
-    CameraGo
+    CameraGo \
+    GalleryGo
 
 # Properties
 -include $(COMMON_PATH)/properties.mk
