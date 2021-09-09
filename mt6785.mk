@@ -118,6 +118,10 @@ PRODUCT_COPY_FILES += \
     $(COMMON_PATH)/permissions/privapp-permissions-mediatek.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-mediatek.xml \
     $(COMMON_PATH)/permissions/privapp-permissions-hotword.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-hotword.xml
 
+# Prebuilt
+PRODUCT_PACKAGES += \
+    CameraGo
+
 # Properties
 -include $(COMMON_PATH)/properties.mk
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
